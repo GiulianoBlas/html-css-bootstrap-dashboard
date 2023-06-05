@@ -1,0 +1,64 @@
+/* DEBUG */
+
+.debug #header-slots-container{
+    background-color: yellow;
+}
+.debug #header-logo{
+    background-color: blue;
+}
+
+.debug #header-search-bar{
+    background-color: blueviolet;
+}
+
+.debug #header-buttons{
+    background-color: brown;
+    height: 5vh;
+}
+
+.debug #main-slots{
+    background-color: rgb(64, 43, 226);
+    height: calc(100vh - 54px);
+}
+
+.debug #main-side-nav{
+    width: 200px;
+    height: 100%;
+    background-color: green;
+}
+
+.debug #main-dashboard{
+    background-color: aqua;
+}
+
+.debug #main-dashboard-top{
+    background-color: rgb(165, 95, 42);
+    height: 50px;
+}
+
+.debug #main-dashboard-bottom{
+    background-color: greenyellow;
+}
+
+.debug #badges{
+    border: 1px solid black;
+    height: 50px
+}
+
+.debug #online-students{
+    border: 1px solid black;
+    height: 50px
+}
+
+.debug #new-student{
+    border: 1px solid black;
+    height: 50px
+}
+
+
+
+
+/* UTILITIES */
+.full-screen-container{
+    width: 100vw;
+}
