@@ -1,64 +1,55 @@
-/* DEBUG */
-
-.debug #header-slots-container{
-    background-color: yellow;
-}
-.debug #header-logo{
-    background-color: blue;
-}
-
-.debug #header-search-bar{
-    background-color: blueviolet;
-}
-
-.debug #header-buttons{
-    background-color: brown;
-    height: 5vh;
-}
-
-.debug #main-slots{
-    background-color: rgb(64, 43, 226);
-    height: calc(100vh - 54px);
-}
-
-.debug #main-side-nav{
-    width: 200px;
-    height: 100%;
-    background-color: green;
-}
-
-.debug #main-dashboard{
-    background-color: aqua;
-}
-
-.debug #main-dashboard-top{
-    background-color: rgb(165, 95, 42);
-    height: 50px;
-}
-
-.debug #main-dashboard-bottom{
-    background-color: greenyellow;
-}
-
-.debug #badges{
-    border: 1px solid black;
-    height: 50px
-}
-
-.debug #online-students{
-    border: 1px solid black;
-    height: 50px
-}
-
-.debug #new-student{
-    border: 1px solid black;
-    height: 50px
-}
-
-
-
 
 /* UTILITIES */
+ #main-slots{
+    height: calc(100vh - 70px);
+ }
+
 .full-screen-container{
     width: 100vw;
+}
+
+.custom-line-height{
+    line-height: 20px;
+}
+
+.square-frame{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.img-logo-frame{
+    width: 54px;
+    height: 54px;
+}
+
+
+    
+/* COLOR FARM */
+:root{
+    --salmon:#f26551;
+    --dark-primary:#145cbc;
+    --dark-blue:#142a40;
+}
+
+/* COLOR UTILITIES */
+
+.salmon-bg{
+    background-color: var(--salmon);
+}
+
+.dark-primary-bg{
+    background-color: var(--dark-primary);
+}
+
+.dark-blue-bg{
+    background-color: var(--dark-blue);
+}
+
+/* EFFECTS */
+.bg-grey-effect{
+    background-color: transparent;
+}
+.bg-grey-effect:hover{
+    background-color: rgba(241, 235, 235, 0.415);
 }
